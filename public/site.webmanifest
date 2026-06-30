@@ -1,0 +1,19 @@
+{
+  "name": "GTA VI Hub",
+  "short_name": "GTAVIHub",
+  "description": "Wiki temática e fan site sobre GTA VI para organizar personagens, missões, locais, veículos, easter eggs e guias.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#050508",
+  "theme_color": "#050508",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

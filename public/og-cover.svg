@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">GTA VI Hub</title>
+  <desc id="desc">Imagem social temporária do fan site GTA VI Hub.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#050508"/>
+      <stop offset=".32" stop-color="#261034"/>
+      <stop offset=".68" stop-color="#772159"/>
+      <stop offset="1" stop-color="#ff9d2e"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#ffe56f"/>
+      <stop offset=".52" stop-color="#ff3d9a"/>
+      <stop offset="1" stop-color="#9f5cff"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g opacity=".16">
+    <path d="M0 96h1200M0 192h1200M0 288h1200M0 384h1200M0 480h1200" stroke="#fff"/>
+    <path d="M120 0v630M240 0v630M360 0v630M480 0v630M600 0v630M720 0v630M840 0v630M960 0v630M1080 0v630" stroke="#fff"/>
+  </g>
+  <circle cx="840" cy="252" r="170" fill="url(#sun)" filter="url(#glow)"/>
+  <g fill="#050508">
+    <rect x="710" y="330" width="84" height="190" rx="6"/>
+    <rect x="810" y="270" width="108" height="250" rx="6"/>
+    <rect x="935" y="355" width="72" height="165" rx="6"/>
+    <rect x="1030" y="310" width="96" height="210" rx="6"/>
+  </g>
+  <text x="76" y="178" fill="#ff9d2e" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="900">WIKI TEMATICA / FAN SITE</text>
+  <text x="72" y="315" fill="#fff8f6" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="116" font-weight="900">GTA VI HUB</text>
+  <text x="78" y="384" fill="#f8dbe5" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Personagens, missoes, locais, veiculos, easter eggs e guias.</text>
+  <rect x="78" y="442" width="310" height="58" rx="8" fill="#ff3d9a"/>
+  <text x="110" y="481" fill="#050508" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="900">ARQUIVOS DE LEONIDA</text>
+</svg>

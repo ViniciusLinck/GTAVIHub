@@ -1,0 +1,60 @@
+import type { Category } from '../types/content'
+
+export const categories: Category[] = [
+  {
+    id: 'personagens',
+    title: 'Personagens',
+    description: 'Perfis, relações, motivações e presença na campanha.',
+    path: '/personagens',
+    accent: 'pink',
+    stat: '2 protagonistas',
+  },
+  {
+    id: 'missoes',
+    title: 'Missões',
+    description: 'Estrutura de objetivos, preparação e recompensas futuras.',
+    path: '/missoes',
+    accent: 'orange',
+    stat: 'campanha',
+  },
+  {
+    id: 'locais',
+    title: 'Locais',
+    description: 'Regiões, pontos de interesse e rotas por Leonida.',
+    path: '/locais',
+    accent: 'teal',
+    stat: 'mapa vivo',
+  },
+  {
+    id: 'veiculos',
+    title: 'Veículos',
+    description: 'Carros, motos, barcos e categorias para comparação.',
+    path: '/veiculos',
+    accent: 'blue',
+    stat: 'garagem',
+  },
+  {
+    id: 'easter-eggs',
+    title: 'Easter Eggs',
+    description: 'Referências, mistérios e achados da comunidade.',
+    path: '/easter-eggs',
+    accent: 'violet',
+    stat: 'segredos',
+  },
+  {
+    id: 'farm',
+    title: 'Guias de farm/dinheiro',
+    description: 'Métodos de dinheiro, rotinas e oportunidades.',
+    path: '/guias-farm',
+    accent: 'orange',
+    stat: 'em breve',
+  },
+  {
+    id: 'dicas',
+    title: 'Dicas gerais',
+    description: 'Boas práticas, primeiros passos e atalhos úteis.',
+    path: '/dicas',
+    accent: 'pink',
+    stat: 'em breve',
+  },
+]
