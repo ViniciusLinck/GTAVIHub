@@ -23,7 +23,7 @@ export function WikiListPage({
   return (
     <section className="page-band page-hero">
       <SEO title={seoTitle ?? title} description={description} path={canonicalPath} />
-      <div className="section-heading wide">
+      <div className="section-heading wide gsap-reveal">
         <p className="eyebrow">{eyebrow}</p>
         <h1>{title}</h1>
         <p>{description}</p>

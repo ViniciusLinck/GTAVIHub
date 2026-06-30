@@ -28,3 +28,12 @@ export interface WikiEntry {
   accent: AccentTone
   mediaPath?: string
 }
+
+export interface MediaAsset {
+  id: string
+  title: string
+  collection: string
+  kind: 'image' | 'video'
+  src: string
+  sizeMb: number
+}

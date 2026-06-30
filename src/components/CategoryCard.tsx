@@ -1,6 +1,7 @@
 import type { CSSProperties } from 'react'
 import { Link } from 'react-router-dom'
 import type { Category, WikiEntry } from '../types/content'
+import { mediaUrl } from '../utils/media'
 
 type CategoryCardProps = {
   item: Category | WikiEntry
@@ -10,12 +11,12 @@ type CategoryCardProps = {
 export function CategoryCard({ item, path }: CategoryCardProps) {
   const mediaStyle = item.mediaPath
     ? ({
-        backgroundImage: `linear-gradient(180deg, transparent, rgba(5, 5, 8, 0.78)), url(${item.mediaPath})`,
+        backgroundImage: `linear-gradient(180deg, transparent, rgba(5, 5, 8, 0.78)), url(${mediaUrl(item.mediaPath)})`,
       } as CSSProperties)
     : undefined
 
   const card = (
-    <article className={`content-card tone-${item.accent}`}>
+    <article className={`content-card gsap-reveal tone-${item.accent}`}>
       <div className="card-media" style={mediaStyle} aria-hidden="true">
         <div className="media-grid" />
       </div>

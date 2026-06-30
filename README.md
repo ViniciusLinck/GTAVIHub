@@ -33,7 +33,7 @@ npm.cmd run build
 
 ## SEO
 
-O domínio canônico temporário está como `https://gtavihub.com.br` em `index.html`, `robots.txt`, `sitemap.xml` e no fallback de `src/config/site.ts`.
+O domínio canônico temporário está como `https://viniciuslinck.github.io/GTAVIHub` em `index.html`, `robots.txt`, `sitemap.xml` e no fallback de `src/config/site.ts`.
 
 Quando definir o domínio real, atualize esses arquivos e/ou use `VITE_SITE_URL` no ambiente de build.
 

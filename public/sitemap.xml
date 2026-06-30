@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://gtavihub.com.br/</loc>
+    <loc>https://viniciuslinck.github.io/GTAVIHub/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://gtavihub.com.br/personagens</loc>
+    <loc>https://viniciuslinck.github.io/GTAVIHub/personagens</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://gtavihub.com.br/missoes</loc>
+    <loc>https://viniciuslinck.github.io/GTAVIHub/missoes</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://gtavihub.com.br/locais</loc>
+    <loc>https://viniciuslinck.github.io/GTAVIHub/locais</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://gtavihub.com.br/veiculos</loc>
+    <loc>https://viniciuslinck.github.io/GTAVIHub/veiculos</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://gtavihub.com.br/easter-eggs</loc>
+    <loc>https://viniciuslinck.github.io/GTAVIHub/easter-eggs</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://gtavihub.com.br/guias-farm</loc>
+    <loc>https://viniciuslinck.github.io/GTAVIHub/guias-farm</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://gtavihub.com.br/dicas</loc>
+    <loc>https://viniciuslinck.github.io/GTAVIHub/dicas</loc>
     <priority>0.8</priority>
   </url>
 </urlset>

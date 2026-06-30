@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gtavihub.com.br/sitemap.xml
+Sitemap: https://viniciuslinck.github.io/GTAVIHub/sitemap.xml

@@ -8,6 +8,7 @@ export const categories: Category[] = [
     path: '/personagens',
     accent: 'pink',
     stat: '2 protagonistas',
+    mediaPath: '/media/images/Jason_and_Lucia_01/Jason_and_Lucia_01_landscape.jpg',
   },
   {
     id: 'missoes',
@@ -16,6 +17,7 @@ export const categories: Category[] = [
     path: '/missoes',
     accent: 'orange',
     stat: 'campanha',
+    mediaPath: '/media/images/Jason_Lucia_Motel/Jason_and_Lucia_Motel_landscape.jpg',
   },
   {
     id: 'locais',
@@ -24,6 +26,7 @@ export const categories: Category[] = [
     path: '/locais',
     accent: 'teal',
     stat: 'mapa vivo',
+    mediaPath: '/media/images/Places/Vice City/Vice_City_01.jpg',
   },
   {
     id: 'veiculos',
@@ -32,6 +35,7 @@ export const categories: Category[] = [
     path: '/veiculos',
     accent: 'blue',
     stat: 'garagem',
+    mediaPath: '/media/images/ULTIMATE_EDITION_GROTTI_CHEETAH_01.jpg',
   },
   {
     id: 'easter-eggs',
@@ -40,6 +44,7 @@ export const categories: Category[] = [
     path: '/easter-eggs',
     accent: 'violet',
     stat: 'segredos',
+    mediaPath: '/media/images/Postcards/Vice_City/Vice_City_Postcard_landscape.jpg',
   },
   {
     id: 'farm',
@@ -48,6 +53,7 @@ export const categories: Category[] = [
     path: '/guias-farm',
     accent: 'orange',
     stat: 'em breve',
+    mediaPath: '/media/images/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_01.jpg',
   },
   {
     id: 'dicas',
@@ -56,5 +62,6 @@ export const categories: Category[] = [
     path: '/dicas',
     accent: 'pink',
     stat: 'em breve',
+    mediaPath: '/media/images/Official_Cover_Art/Official_Cover_Art_landscape.jpg',
   },
 ]
